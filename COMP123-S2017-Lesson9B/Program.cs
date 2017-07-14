@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: Lesson 9
- * Version: 0.6 - Implimented the SuperHero class
+ * Version: 0.7 - Display the SuperHero Karma value
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -24,6 +24,7 @@ namespace COMP123_S2017_Lesson9B
             superHero.AddPower("Spider Sense", 75);
             //SuperHero.DisplayPowers();
             Console.WriteLine(superHero.ToString());
+            Console.WriteLine("Karma: " + superHero.Karma);
         }
     }
 }
