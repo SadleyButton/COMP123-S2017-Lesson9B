@@ -7,7 +7,7 @@ using System.Text;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: This is the SuperHuman class that extends the Human Abstract Class
- * Version: 0.5 - Added overridden method ToString
+ * Version: 0.6 - Added Stub Method DisplaySkills to conform to Human Abstract SuperClass
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -79,6 +79,9 @@ namespace COMP123_S2017_Lesson9B
         /// <returns>
         /// string
         /// </returns>
+
+        // PUBLIC OVERRIDDEN METHODS
+
         public override string ToString()
         {
             string outputString = "";
@@ -94,6 +97,14 @@ namespace COMP123_S2017_Lesson9B
             outputString += "==================================\n";
 
             return outputString;
+        }
+
+        /// <summary>
+        /// This method needs implimentation
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
         }
     }
 }
