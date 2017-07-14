@@ -36,11 +36,12 @@
       <NewMemberFileName>SuperHero.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="COMP123_S2017_Lesson9B.IHasKarma">
+  <Interface Name="COMP123_S2017_Lesson9B.IHasMalice">
     <Position X="0.75" Y="5.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IHasKarma.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasMalice.cs</FileName>
+      <NewMemberFileName>IHasKarma.cs</NewMemberFileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
