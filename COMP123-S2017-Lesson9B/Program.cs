@@ -8,7 +8,8 @@ using System.Threading.Tasks;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: Lesson 9
- * Version: 0.3 - Added a Power to the SuperHuman object
+ * Version: 0.4 - Added another power to the SuperHuman object
+ *              - Displayed all powers in the Powers List
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -20,6 +21,8 @@ namespace COMP123_S2017_Lesson9B
             SuperHuman superHuman = new SuperHuman("Super Dude");
             //superHuman.Powers.Add(new Power("Spider Climbing", 50));
             superHuman.AddPower("Spider Climbing", 50);
+            superHuman.AddPower("Webcasting", 40);
+            superHuman.DisplayPowers();
         }
     }
 }
