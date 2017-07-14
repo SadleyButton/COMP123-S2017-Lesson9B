@@ -7,7 +7,7 @@ using System.Text;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: This is the power class that names and ranks the powers.
- * Version: 0.1 - Created the Power class
+ * Version: 0.2 - Added power constructor
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -22,6 +22,16 @@ namespace COMP123_S2017_Lesson9B
         public int Rank { get; set; }
 
         // CONSTRUCTORS -----------------------------------
-
+        /// <summary>
+        /// This is the main constructor for the power class
+        /// It takes two arguments - name (string) - rank (int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power(string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
     }
 }

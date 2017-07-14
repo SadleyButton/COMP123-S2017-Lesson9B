@@ -21,7 +21,13 @@ namespace COMP123_S2017_Lesson9B
         private List<Power> _powers;
 
         // PUBLIC PROPERTIES
-
+        public List<Power> Powers
+        {
+            get
+            {
+                return this._powers; // this returns a reference
+            }
+        }
         // CONSTRUCTORS
 
         /// <summary>
