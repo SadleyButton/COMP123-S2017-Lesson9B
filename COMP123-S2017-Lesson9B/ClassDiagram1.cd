@@ -28,13 +28,13 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="COMP123_S2017_Lesson9B.SuperHero">
+  <Class Name="COMP123_S2017_Lesson9B.SuperVillain">
     <Position X="6" Y="1.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SuperHero.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SuperVillain.cs</FileName>
+      <NewMemberFileName>SuperHero.cs</NewMemberFileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="COMP123_S2017_Lesson9B.IHasKarma">
     <Position X="0.75" Y="5.75" Width="2" />
