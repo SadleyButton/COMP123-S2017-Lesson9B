@@ -6,8 +6,8 @@ using System.Text;
 /*
  * Name: Bradley Sutton
  * Date: July 14, 2017
- * Description: SuperVillain class which inherits from the SuperHuman class
- * Version: 0.1 - Created the SuperVillain class
+ * Description: SuperVillain class which inherits from the SuperHuman class and impliments IHasKarma interface
+ * Version: 0.2 - Modified constructor to take malice value
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -31,13 +31,13 @@ namespace COMP123_S2017_Lesson9B
 
         /// <summary>
         /// Main constructor for the SuperVillain classes
-        /// Takes one arugement - name (string)
+        /// Takes two arugements - name (string) - malice (int)
         /// </summary>
         /// <param name="name"></param>
-        public SuperVillain(string name)
+        public SuperVillain(string name, int malice)
             :base(name)
         {
-            
+            this.Malice = malice;
         }
 
         // PRIVATE METHODS
