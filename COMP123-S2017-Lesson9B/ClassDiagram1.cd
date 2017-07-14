@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9B.SuperHuman">
-    <Position X="3.75" Y="1.5" Width="2" />
+    <Position X="3.5" Y="1.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9B.Power">
-    <Position X="6.25" Y="1.5" Width="1.5" />
+    <Position X="3.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Power.cs</FileName>
@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9B.SuperHero">
-    <Position X="1.5" Y="5" Width="1.5" />
+    <Position X="6" Y="1.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
@@ -37,7 +37,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="COMP123_S2017_Lesson9B.IHasKarma">
-    <Position X="3.75" Y="5.75" Width="2" />
+    <Position X="0.75" Y="5.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>

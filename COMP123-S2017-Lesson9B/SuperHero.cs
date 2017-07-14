@@ -7,7 +7,7 @@ using System.Text;
  * Name: Bradley Sutton
  * Date: July 14, 2017
  * Description: SuperHero class which inherits from the SuperHuman class and impliments IHasKarma interface
- * Version: 0.1 - Created the SuperHero class
+ * Version: 0.2 - Modified constructor to take karma value
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -34,10 +34,10 @@ namespace COMP123_S2017_Lesson9B
         /// Takes one arugement - name (string)
         /// </summary>
         /// <param name="name"></param>
-        public SuperHero(string name)
+        public SuperHero(string name, int karma)
             :base(name)
         {
-
+            this.Karma = karma;
         }
 
         // PRIVATE METHODS

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: Lesson 9
- * Version: 0.5 - Used the ToString method of the SuperHuman class
+ * Version: 0.6 - Implimented the SuperHero class
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -17,13 +17,13 @@ namespace COMP123_S2017_Lesson9B
     {
         static void Main(string[] args)
         {
-            SuperHuman superHuman = new SuperHuman("Super Dude");
-            //superHuman.Powers.Add(new Power("Spider Climbing", 50));
-            superHuman.AddPower("Spider Climbing", 50);
-            superHuman.AddPower("Webcasting", 40);
-            superHuman.AddPower("Spider Sense", 75);
-            //superHuman.DisplayPowers();
-            Console.WriteLine(superHuman.ToString());
+            SuperHero superHero = new SuperHero("SuperHero Dude", 20);
+            //SuperHero.Powers.Add(new Power("Spider Climbing", 50));
+            superHero.AddPower("Spider Climbing", 50);
+            superHero.AddPower("Webcasting", 40);
+            superHero.AddPower("Spider Sense", 75);
+            //SuperHero.DisplayPowers();
+            Console.WriteLine(superHero.ToString());
         }
     }
 }
