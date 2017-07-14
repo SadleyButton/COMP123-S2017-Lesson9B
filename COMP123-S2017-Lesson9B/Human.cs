@@ -7,7 +7,7 @@ using System.Text;
  * Name: Bradley Sutton
  * Date: July 13, 2017
  * Description: This is the Abstract Human Class
- * Version: 0.1 - Created Abstract Human Class
+ * Version: 0.2 - Added Public Abstract method DisplaySkills
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -48,8 +48,8 @@ namespace COMP123_S2017_Lesson9B
 
         // PRIVATE METHODS
 
-        // PUBLIC METHODS
+        // PUBLIC ABSTRACT METHODS
 
-
+        public abstract void DisplaySkills();
     }
 }
